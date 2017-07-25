@@ -3,19 +3,19 @@ White House:
 
 Department of Agriculture:
   url: http://www.usda.gov/developers
-
+  status: 200
 Economic Research Service:
   url: http://www.ers.usda.gov/developer.aspx
 
 Department of Commerce:
   url: http://www.commerce.gov/developer
-
+  status: 200
 Bureau of Economic Analysis:
   url: http://www.bea.gov/api
-
+  status: 200
 Census Bureau:
   url: http://www.census.gov/developers/
-
+  status: 200
 International Trade Administration:
   url: http://developer.trade.gov/
 
@@ -24,28 +24,28 @@ National Weather Service:
 
 Center for Operational Oceanographic Products and Services:
   url: http://tidesandcurrents.noaa.gov/api/
-
+  status: 200
 National Climate Data Center:
   url: http://www.ncdc.noaa.gov/cdo-web/
 
 Department of Defense:
   url: http://www.defense.gov/developer/
-
+  status: 200
 Arlington National Cemetary:
   url: http://www.arlingtoncemetery.mil/Developer/
-
+  status: 404
 Department of Education:
   url: http://www.ed.gov/developers
-
+  status: 200
 Department of Energy:
   url: http://www.energy.gov/developers
-
+  status: 200
 Energy Information Administration:
   url: http://www.eia.gov/developer/
 
 Argonne National Laboratory - National Environmental Policy Act:
   url: http://nepanode.anl.gov/developer/
-
+  status: 404
 National Renewable Energy Laboratory:
   url: http://developer.nrel.gov/
 
@@ -54,10 +54,10 @@ Office of Scientific and Technical Information:
 
 Department of Health and Human Services:
   url: http://www.hhs.gov/developer
-
+  status: 200
 Centers for Medicare and Medicaid Services:
   url: http://data.cms.gov/
-
+  status: 200
 Food and Drug Administration:
   url: http://open.fda.gov
 
@@ -75,46 +75,46 @@ Substance Abuse and Mental Health Services Administration:
 
 Department of Homeland Security:
   url: http://www.dhs.gov/developer
-
+  status: 200
 Federal Emergency Management Agency:
   url: http://www.fema.gov/developer-resources
 
 Department of Housing and Urban Development:
   url: http://www.hud.gov/developer
-
+  status: 200
 Department of the Interior:
   url: http://www.doi.gov/developer
-
+  status: 200
 U.S. Geological Survey:
   url: http://data.usgs.gov/
 
 Department of Justice:
   url: http://www.justice.gov/developer
-
+  status: 200
 Bureau of Alcohol, Tobacco, Firearms, and Explosives:
   url: https://www.atf.gov/content/About/statistics/developer
-
+  status: 404
 Bureau of Justice Statistics:
   url: http://www.bjs.gov/developer/
-
+  status: 200
 Office of Justice Programs:
   url: http://data.ojp.gov/developer/
 
 Department of Labor:
   url: http://developer.dol.gov/
-
+  status: 200
 Bureau of Labor Statistics:
   url: http://www.bls.gov/developers/
-
+  status: 200
 Department of State:
   url: http://www.state.gov/developer
-
+  status: 200
 Office of the Historian - State Department:
   url: http://history.state.gov/developer
 
 Department of Transportation:
   url: http://www.dot.gov/developer
-
+  status: 200
 Federal Aviation Administration:
   url: http://services.faa.gov/
 
@@ -129,10 +129,10 @@ Department of the Treasury:
 
 Department of Veterans Affairs:
   url: http://www.va.gov/developer
-
+  status: 200
 Consumer Financial Protection Bureau:
   url: http://www.consumerfinance.gov/developers/
-
+  status: 200
 Environmental Protection Agency:
   url: http://www.epa.gov/developer/
 
@@ -176,17 +176,17 @@ U.S. Agency for International Development:
   url: http://www.usaid.gov/developer
 
 BusinessUSA:
-  url: http://business.usa.gov/apis
-
+  url: https://business.usa.gov/developer
+  status: 200
 Commerce - Automated Export System:
   url: http://aesdirect.census.gov/developers
-
+  status: 200
 Data.gov:
   url: http://developer.data.gov
-
+  status: 200
 DEA - E-Commerce Program:
   url: http://www.deaecom.gov/developer.html
-
+  status: 200
 DigitalGov Search:
   url: http://search.digitalgov.gov/developer
 
