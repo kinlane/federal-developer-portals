@@ -5,34 +5,33 @@ title: Federal Agency Developer Portals
 
 <!-- News -->
 <a name="News"></a>
-{% assign agencies = site.data.agencies %}
-{% assign agencies =agencies| sort %}
+{% assign github = site.data.github %}
+{% assign github = github| sort %}
 <section>
 	<header>
-		<h2>Agencies</h2>
+		<h2>Github</h2>
 	</header>
 	<p></p>
 	<div class="table-wrapper" style="height: 500px; overflow: auto;">
 		<table class="alt">
 			<thead>
 				<tr>
-					<th>Agency</th>
+					<th>Name</th>
 					<th>URL</th>
 					<th></th>
 				</tr>
 			</thead>
 			<tbody>
 				{% assign count = 0 %}
-				{% for agency in agencies %}
+				{% for entry in github %}
 					<tr>
-						<td>{{ agency[0] }}</td>
-						<td><a href="{{ agency[1].url }}">{{ agency[1].url }}</a></td>
+						<td><a href="https://github.com/{{ entry }}">{{ entry }}</a></td>
 						<td></td>
 					</tr>
 					{% assign count = count | plus: 1 %}
 				{% endfor %}
 			</tbody>
 		</table>
-		<p align="center">{{ count }} agencies</p>
+		<p align="center">{{ count }} githubs</p>
 	</div>
 </section>

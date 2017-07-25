@@ -5,8 +5,8 @@ title: Federal Agency Developer Portals
 
 <!-- News -->
 <a name="News"></a>
-{% assign agencies = site.data.agencies %}
-{% assign agencies =agencies| sort %}
+{% assign apis = site.data.apis %}
+{% assign apis = apis | sort: 'name' %}
 <section>
 	<header>
 		<h2>Agencies</h2>
@@ -23,16 +23,20 @@ title: Federal Agency Developer Portals
 			</thead>
 			<tbody>
 				{% assign count = 0 %}
-				{% for agency in agencies %}
+				{% for api in apis %}
 					<tr>
-						<td>{{ agency[0] }}</td>
-						<td><a href="{{ agency[1].url }}">{{ agency[1].url }}</a></td>
-						<td></td>
+						<td>{{ api.name }}</td>
 					</tr>
-					{% assign count = count | plus: 1 %}
+					{% for entry in api.apis %}
+						<tr>
+							<td>{{ entry.name }}</td>
+							<td>{{ entry.url }}</td>
+						</tr>
+						{% assign count = count | plus: 1 %}
+					{% endfor %}
 				{% endfor %}
 			</tbody>
 		</table>
-		<p align="center">{{ count }} agencies</p>
+		<p align="center">{{ count }} apis</p>
 	</div>
 </section>
