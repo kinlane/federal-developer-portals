@@ -25,10 +25,11 @@ title: Federal Agency Developer Portals
 				{% assign count = 0 %}
 				{% for api in apis %}
 					<tr>
-						<td>{{ api.name }}</td>
+						<td colspan="3">{{ api.name }}</td>
 					</tr>
 					{% for entry in api.apis %}
 						<tr>
+							<td width="25"></td>
 							<td>{{ entry.name }}</td>
 							<td>{{ entry.url }}</td>
 						</tr>
