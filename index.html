@@ -6,7 +6,7 @@ title: Federal Agency Developer Portals
 <!-- News -->
 <a name="News"></a>
 {% assign agencies = site.data.agencies %}
-{% assign agencies =agencies| sort: '' %}
+{% assign agencies =agencies| sort: 'agency[0]' %}
 <section>
 	<header>
 		<h2>Agencies</h2>
