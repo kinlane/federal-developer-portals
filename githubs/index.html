@@ -25,7 +25,7 @@ title: Federal Agency Developer Portals
 				{% assign count = 0 %}
 				{% for entry in github %}
 					<tr>
-						<td><a href="https://github.com/{{ entry }}">{{ entry }}</a></td>
+						<td><a href="https://github.com/{{ entry }}" target="_blank">{{ entry }}</a></td>
 					</tr>
 					{% assign count = count | plus: 1 %}
 				{% endfor %}
