@@ -4,7 +4,7 @@ raw_url: http://federal.agency.developer.portals.apievangelist.com/apis/
 
 tag: Backups
 
-logo:         https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-evangelist-logo-accessibility.png
+logo:         https://kinlane-productions.s3.amazonaws.com/api-evangelist/api-evangelist-logo-400.png
 logo_width:   80
 logo_bottom_padding: 10
 
