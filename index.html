@@ -25,7 +25,7 @@ title: Federal Agency Developer Portals
 				{% for agency in agencies %}
 					<tr>
 						<td>{{ agency[0] }}</td>
-						<td>{{ agency[1].url }}</td>
+						<td><a href="{{ agency[1].url }}">{{ agency[1].url }}</a></td>
 						<td></td>
 					</tr>
 				{% endfor %}
